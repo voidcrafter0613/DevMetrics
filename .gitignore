@@ -1,0 +1,53 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# Virtual environment directories
+.venv/
+venv/
+env/
+env.bak/
+venv.bak/
+
+# FastAPI specific (if you use an ASGI server like Uvicorn, etc.)
+*.log
+*.sock
+*.pid
+
+# Type information files (e.g., mypy)
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# dotenv files (store sensitive environment variables)
+.env
+*.env
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.cache/
+
+# coverage reports
+.coverage
+coverage.xml
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Any other files to exclude (add custom exclusions below)
